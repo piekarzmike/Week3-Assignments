@@ -47,9 +47,9 @@ public class VowelCounter {
 		for (int count = 0; count < userInput.length(); count = count +1) {
 			letter = userInput.charAt(count);
 			if (letter == 'a')
-					aLowerCase += 1;
+				aLowerCase += 1;
 			else if  (letter == 'e')
-					eLowerCase += 1;
+				eLowerCase += 1;
 			else if  (letter == 'i')
 				iLowerCase += 1;
 			else if  (letter == 'o')
