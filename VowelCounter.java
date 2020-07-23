@@ -53,7 +53,7 @@ public class VowelCounter {
 			else if  (letter == 'i')
 				iLowerCase += 1;
 			else if  (letter == 'o')
-				oLowerCase = 1;
+				oLowerCase += 1;
 			else if  (letter == 'u')
 				uLowerCase += 1;
 			else if (letter == 'A'|| letter == 'E'||letter == 'I'||letter == 'O'||letter == 'U')
@@ -69,7 +69,6 @@ public class VowelCounter {
 		System.out.println("\nLowercase Vowel Count: \na = " + aLowerCase + "\ne = " + eLowerCase + "\ni = " + iLowerCase + "\no = " + oLowerCase + "\nu = " + uLowerCase 
 					+ " \nNon-vowel count = " + nonVowel);
 		
-	
 	}
 }
 		
