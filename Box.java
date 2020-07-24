@@ -25,15 +25,13 @@ public class Box {
 		// Declare and instantiate a object reference variable called Box1
 		Box Box1 = new Box();
 		
-		// 
+		// Set the size of the object reference variable Box!
 		Box1.size = 5;
 
 		// Call printBox method
 		Box1.printBox();
-
 	}
 	
-
 	//-----------------------------------------------------------------------------------------
 	// Create printBox method
 	//-----------------------------------------------------------------------------------------
