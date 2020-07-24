@@ -40,7 +40,7 @@ public class Box {
 		int colCount = 0 ;
 		int rowCount = size;
 
-		//  Print * out in a patter in accordance with it's size
+		//  Print * out in a pattern in accordance with it's size
 		while (rowCount != 0) {
 			while (colCount < size) {
 				System.out.print("*"); //  Print * in same line per the number of times stated in the size variable
