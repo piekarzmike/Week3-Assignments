@@ -38,10 +38,7 @@ public class VowelCounter {
 		
 		// Read user input and initialize the userInput variable
 		userInput = scan.nextLine();
-		
-		//Remove white space to ensure blanks are not being accounted within the total for non-vowel characters
-		userInput = userInput.replaceAll("\\s","");
-		
+
 				
 		//	Loop through user's input and sum each lowercase vowel
 		for (int count = 0; count < userInput.length(); count = count +1) {
