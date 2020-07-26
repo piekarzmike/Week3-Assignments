@@ -28,7 +28,6 @@ public class VowelCounter {
 		// Declare variables
 		String userInput;
 		int aLowerCase = 0, eLowerCase = 0, iLowerCase = 0, oLowerCase = 0, uLowerCase = 0; 
-		int upperCase = 0;
 		char letter;
 		int nonVowel = 0;
 		Scanner scan = new Scanner(System.in);
@@ -40,7 +39,7 @@ public class VowelCounter {
 		userInput = scan.nextLine();
 
 				
-		//	Loop through user's input and sum each lowercase vowel
+		//	Loop through user's input and sum each lowercase vowel and nonvowel caharacters
 		for (int count = 0; count < userInput.length(); count = count +1) {
 			letter = userInput.charAt(count);
 			if (letter == 'a')
@@ -53,9 +52,7 @@ public class VowelCounter {
 				oLowerCase += 1;
 			else if  (letter == 'u')
 				uLowerCase += 1;
-			else if (letter == 'A'|| letter == 'E'||letter == 'I'||letter == 'O'||letter == 'U')
-				upperCase +=1;
-			else 
+			else if (!(letter == 'A'|| letter == 'E'||letter == 'I'||letter == 'O'||letter == 'U')) 
 				nonVowel = nonVowel +1;
 		}
 		
